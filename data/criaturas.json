@@ -1,0 +1,334 @@
+{
+    "criaturas": 
+    [
+        {
+            "nome": "Beta",
+            "tipo": "agua",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/beta.png"
+        },
+
+        {
+            "nome": "Tortugrita",
+            "tipo": "agua",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/tortugrita.png"
+        },
+
+        {
+            "nome": "Camarujo",
+            "tipo": "agua",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/camarujo.png"
+        },
+
+        {
+            "nome": "Magmamute",
+            "tipo": "fogo",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/magmamute.png"
+        },
+
+        {
+            "nome": "Picolava",
+            "tipo": "fogo",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/picolava.png"
+        },
+
+        {
+            "nome": "Tulcao",
+            "tipo": "fogo",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/tulcao.png"
+        },
+
+        {
+            "nome": "Perry",
+            "tipo": "planta",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/perry.png"
+        },
+
+        {
+            "nome": "Sambambaia",
+            "tipo": "planta",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/sambambaia.png"
+        },
+
+        {
+            "nome": "Pimentex",
+            "tipo": "planta",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/pimentex.png"
+        },
+
+        {
+            "nome": "Kung-ru",
+            "tipo": "lutador",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/kung-ru.png"
+        },
+
+        {
+            "nome": "Gorilove",
+            "tipo": "lutador",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/gorilove.png"
+        },
+
+        {
+            "nome": "Kichute",
+            "tipo": "lutador",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/kichute.png"
+        },
+
+        {
+            "nome": "Corujao",
+            "tipo": "sombrio",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/corujao.png"
+        },
+
+        {
+            "nome": "Rockaveira",
+            "tipo": "sombrio",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/rockaveira.png"
+        },
+
+        {
+            "nome": "Codark",
+            "tipo": "sombrio",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/codark.png"
+        },
+
+        {
+            "nome": "Ilusiopato",
+            "tipo": "psiquico",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/ilusiopato.png"
+        },
+
+        {
+            "nome": "Psipanze",
+            "tipo": "psiquico",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/psipanze.png"
+        },
+
+        {
+            "nome": "Galouvor",
+            "tipo": "psiquico",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/galouvor.png"
+        },
+
+        {
+            "nome": "Escorpierva",
+            "tipo": "areia",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/escorpierva.png"
+        },
+
+        {
+            "nome": "Ratimbum",
+            "tipo": "areia",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/ratimbum.png"
+        },
+
+        {
+            "nome": "Hermano",
+            "tipo": "areia",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/hermano.png"
+        },
+
+        {
+            "nome": "Kinguim",
+            "tipo": "gelo",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/kinguim.png"
+        },
+
+        {
+            "nome": "Articao",
+            "tipo": "gelo",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/articao.png"
+        },
+
+        {
+            "nome": "Frioboi",
+            "tipo": "gelo",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/frioboi.png"
+        },
+
+        {
+            "nome": "Pokemolden",
+            "tipo": "eletrico",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/pokemolden.png"
+        },
+
+        {
+            "nome": "Felinux",
+            "tipo": "eletrico",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/felinux.png"
+        },
+
+        {
+            "nome": "Durashell",
+            "tipo": "eletrico",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/durashell.png"
+        },
+
+        {
+            "nome": "Silva",
+            "tipo": "normal",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/silva.png"
+        },
+
+        {
+            "nome": "Souza",
+            "tipo": "normal",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/souza.png"
+        },
+
+        {
+            "nome": "Santos",
+            "tipo": "normal",
+            "hp": 300,
+            "atk": 50,
+            "def": 50,
+            "spe": 50,
+            "ataques": [],
+            "image_path": "images/creatures/santos.png"
+        }
+    ]
+}

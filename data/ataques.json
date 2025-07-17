@@ -1,0 +1,743 @@
+{
+    "ataquesagua":
+    [
+        {
+            "nome": "Pororoca",
+            "tipo": "agua",
+            "dano": 65,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Tsunami",
+            "tipo": "agua",
+            "dano": 75,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Cuspida",
+            "tipo": "agua",
+            "dano": 20,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 10
+        },
+
+        {
+            "nome": "Tiete",
+            "tipo": "agua",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "poison",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Bebedouro",
+            "tipo": "agua",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "heal",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Agua do Joelho",
+            "tipo": "agua",
+            "dano": 30,
+            "velocidade":0,
+            "efeito":null,
+            "quantidade": 10
+        }
+
+    ],
+
+    "ataquesfogo":
+    [
+        {
+            "nome": "Churrasqueira",
+            "tipo": "fogo",
+            "dano": 75,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Labareda",
+            "tipo": "fogo",
+            "dano": 20,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 15
+        },
+
+        {
+            "nome": "Erupcao",
+            "tipo": "fogo",
+            "dano": 65,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Aquecimento Global",
+            "tipo": "fogo",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "burn",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Horario de Verao",
+            "tipo": "fogo",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "turno",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Queimada",
+            "tipo": "fogo",
+            "dano": 30,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 10
+        }
+    ],
+
+    "ataquesplanta":
+    [
+        {
+            "nome": "Natiruts",
+            "tipo": "planta",
+            "dano": 20,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 15
+        },
+
+        {
+            "nome": "Verdinha",
+            "tipo": "planta",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "slow",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Agronegocio",
+            "tipo": "planta",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "atk",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Arbusto da UEL",
+            "tipo": "planta",
+            "dano": 50,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Ataque Amazonico",
+            "tipo": "planta",
+            "dano": 75,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Acelga",
+            "tipo": "planta",
+            "dano": 65,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        }       
+    ],
+
+    "ataqueslutador":
+    [
+        {
+            "nome": "Popo",
+            "tipo": "lutador",
+            "dano": 75,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Bambam",
+            "tipo": "lutador",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "def",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Paulistinha",
+            "tipo": "lutador",
+            "dano": 25,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 10
+        },
+
+        {
+            "nome": "Surdao",
+            "tipo": "lutador",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "confusion",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Fusca Azul",
+            "tipo": "lutador",
+            "dano": 30,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Mata leao",
+            "tipo": "lutador",
+            "dano": 60,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        }
+    ],
+
+    "ataquessombrio":
+    [
+        {
+            "nome": "Eclipse",
+            "tipo": "sombrio",
+            "dano": 40,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 7
+        },
+
+        {
+            "nome": "Blackout",
+            "tipo": "sombrio",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "lifestolen",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Arrastao",
+            "tipo": "sombrio",
+            "dano": 75,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Furia da noite",
+            "tipo": "sombrio",
+            "dano": 60,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 7
+        },
+
+        {
+            "nome": "Boate azul",
+            "tipo": "sombrio",
+            "dano": 20,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 10
+        },
+
+        {
+            "nome": "Depressao",
+            "tipo": "sombrio",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "def",
+            "quantidade": 5
+        }
+    ],
+    
+    "ataquespsiquico":
+    [
+        {
+            "nome": "Pistola hipnotica",
+            "tipo": "psiquico",
+            "dano": 40,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 7
+        },
+
+        {
+            "nome": "Doctor",
+            "tipo": "psiquico",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "confusion",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Calvicie",
+            "tipo": "psiquico",
+            "dano": 75,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Terapia",
+            "tipo": "psiquico",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "heal",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Fim de semestre",
+            "tipo": "psiquico",
+            "dano": 65,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        }
+    ],
+
+    "ataquesareia":
+    [
+        {
+            "nome": "Garimpo ilegal",
+            "tipo": "areia",
+            "dano": 75,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Terremoto",
+            "tipo": "areia",
+            "dano": 40,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 10
+        },
+
+        {
+            "nome": "Erosao",
+            "tipo": "areia",
+            "dano": 20,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 10
+        },
+
+        {
+            "nome": "Areia movedica",
+            "tipo": "areia",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "slow",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Lençois maranhenses",
+            "tipo": "areia",
+            "dano": false,
+            "velocidade": 1,
+            "efeito": "heal",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Esquema de piramide",
+            "tipo": "areia",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "sleep",
+            "quantidade": 5
+        }
+    ],
+
+    "ataquesgelo":
+    [
+        {
+            "nome": "Zero absoluto",
+            "tipo": "gelo",
+            "dano": 75,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Sorvete do pinguim",
+            "tipo": "gelo",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "heal",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Copo stanley",
+            "tipo": "gelo",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "freeze",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Cooler",
+            "tipo": "gelo",
+            "dano": 30,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 10
+        },
+
+        {
+            "nome": "Geladinho",
+            "tipo": "gelo",
+            "dano": 20,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 15
+        },
+
+        {
+            "nome": "Era glacial",
+            "tipo": "gelo",
+            "dano": 65,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Iceberg",
+            "tipo": "gelo",
+            "dano": 50,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 7
+        }
+    ],
+
+    "ataqueseletrico":
+    [
+        {
+            "nome": "Copel",
+            "tipo": "eletrico",
+            "dano": 75,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Fio desencapado",
+            "tipo": "eletrico",
+            "dano": 15,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 15
+        },
+
+        {
+            "nome": "Whatzap",
+            "tipo": "eletrico",
+            "dano": 40,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 7
+        },
+
+        {
+            "nome": "Corrente eletrica",
+            "tipo": "eletrico",
+            "dano": 30,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 10
+        },
+
+        {
+            "nome": "Power bank",
+            "tipo": "eletrico",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "heal",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Flash",
+            "tipo": "eletrico",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "spe",
+            "quantidade": 5
+        }
+    ],
+
+    "ataquesgeral":
+    [
+        {
+            "nome": "Chinelada",
+            "tipo": "normal",
+            "dano": 20,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 15
+        },
+
+        {
+            "nome": "Sentada olimpica",
+            "tipo": "normal",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "atk",
+            "quantidade": 10
+        },
+
+        {
+            "nome": "Truco",
+            "tipo": "normal",
+            "dano": 30,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 10
+        },
+
+        {
+            "nome": "Soco no baco",
+            "tipo": "normal",
+            "dano": 40,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Bronca da mae",
+            "tipo": "normal",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "slow",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Chute",
+            "tipo": "normal",
+            "dano": 50,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 10
+        },
+
+        {
+            "nome": "Voadora",
+            "tipo": "normal",
+            "dano": 65,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "TorsaoT",
+            "tipo": "normal",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "def",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Tapa na cara",
+            "tipo": "normal",
+            "dano": 30,
+            "velocidade": 1,
+            "efeito": "confusion",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Tijolada",
+            "tipo": "normal",
+            "dano": 50,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 10
+        },
+
+        {
+            "nome": "Toddynho",
+            "tipo": "normal",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "heal",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Calculo III",
+            "tipo": "normal",
+            "dano": 75,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Miopia",
+            "tipo": "normal",
+            "dano": false,
+            "velocidade": 0,
+            "efeito": "confusion",
+            "quantidade": 5
+        },
+        
+        {
+            "nome": "Cafe quente",
+            "tipo": "normal",
+            "dano": 40,
+            "velocidade": 1,
+            "efeito": null,
+            "quantidade": 7
+        },
+
+        {
+            "nome": "Curto Circuito",
+            "tipo": "eletrico",
+            "dano": 50,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Descarga",
+            "tipo": "agua",
+            "dano": 50,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Gelo de coco",
+            "tipo": "gelo",
+            "dano": 45,
+            "velocidade": 0,
+            "efeito": "confusion",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Domingo a noite",
+            "tipo": "sombrio",
+            "dano": 55,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Wasari",
+            "tipo": "lutador",
+            "dano": 50,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Fe nas maluca",
+            "tipo": "psiquico",
+            "dano": 50,
+            "velocidade": 0,
+            "efeito": null,
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Cisco no olho",
+            "tipo": "areia",
+            "dano": 50,
+            "velocidade": 0,
+            "efeito": "confusion",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Ensolacao",
+            "tipo": "fogo",
+            "dano": 50,
+            "velocidade": 0,
+            "efeito": "burn",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Agrotoxico",
+            "tipo": "planta",
+            "dano": 50,
+            "velocidade": 0,
+            "efeito": "poison",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Calor de Londrina",
+            "tipo": "fogo",
+            "dano": 50,
+            "velocidade": 0,
+            "efeito": "burn",
+            "quantidade": 5
+        },
+
+        {
+            "nome": "Londrina em agosto",
+            "tipo": "gelo",
+            "dano": 50,
+            "velocidade": 0,
+            "efeito": "freeze",
+            "quantidade": 5
+        }
+    ]
+}

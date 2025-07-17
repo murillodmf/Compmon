@@ -1,0 +1,87 @@
+
+    [
+        {
+            "nome": "poison",
+            "tipo": "dano",
+            "turnos": 3,
+            "dano": 10
+        },
+
+        {
+            "nome": "burn",
+            "tipo": "dano",
+            "turnos": 3,
+            "dano": 10
+        },
+
+        {
+            "nome": "freeze",
+            "tipo": "disabled",
+            "turnos": 1,
+            "dano": false
+        },
+
+        {
+            "nome": "sleep",
+            "tipo": "disabled",
+            "turnos": 1,
+            "dano": false
+        },
+
+        {
+            "nome": "lifestolen",
+            "tipo": "life",
+            "turnos": 1,
+            "dano": false
+        },
+
+        {
+            "nome": "heal",
+            "tipo": "health",
+            "turnos": 1,
+            "dano": false
+        },
+
+        {
+            "nome": "turno",
+            "tipo": "perdeturno",
+            "turnos": 1,
+            "dano": false
+        },
+
+        {
+            "nome": "slow",
+            "tipo": "status",
+            "turnos": 2,
+            "dano": false
+        },
+
+        {
+            "nome": "atk",
+            "tipo": "status",
+            "turnos": 2,
+            "dano": false
+        },
+
+        {
+            "nome": "def",
+            "tipo": "status",
+            "turnos": 2,
+            "dano": false
+        },
+
+        {
+            "nome": "confusion",
+            "tipo": "stunned",
+            "turnos": 2,
+            "dano": false
+        },
+
+        {
+            "nome": "spe",
+            "tipo": "status",
+            "turnos": 1,
+            "dano": false
+        }
+
+    ]
