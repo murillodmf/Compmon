@@ -15,5 +15,17 @@
         "agua",
         "agua",
         "agua"
-    ]
+    ],
+    "Calor de Londrina": {
+        "usos_em_vitorias": 0,
+        "usos_em_derrotas": 3
+    },
+    "Bronca da mae": {
+        "usos_em_vitorias": 0,
+        "usos_em_derrotas": 1
+    },
+    "Miopia": {
+        "usos_em_vitorias": 0,
+        "usos_em_derrotas": 2
+    }
 }

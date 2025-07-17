@@ -44,7 +44,7 @@ def get_centered_rect(image, center_x, center_y):
     rect = image.get_rect(center=(center_x, center_y))
     return rect
 
-def draw_menu(screen, background, compmonlogo_rect, startbutton):
+def draw_menu(screen, background, compmonlogo, compmonlogo_rect, startbutton):
     screen.blit(background, (0, 0))
     screen.blit(compmonlogo, compmonlogo_rect.topleft)
     startbutton.draw(screen)
@@ -88,7 +88,7 @@ def draw_images_creatures_battle(screen, criatura1, criatura2):
     screen.blit(creature1_image, (230, 80))
     screen.blit(creature2_image, (1200, 550))
 
-def draw_game(screen, criatura1, criatura2):
+def draw_game(screen, battleimage, criatura1, criatura2):
     screen.fill(WHITE)
     screen.blit(battleimage, (0, 0))
     draw_images_creatures_battle(screen, criatura1, criatura2)
@@ -101,7 +101,7 @@ def draw_difficulty_selection(screen, background, easy_button, medium_button, ha
     medium_button.draw(screen)
     hard_button.draw(screen)
 
-def main_loop(screen, background, compmonlogo_rect, startbutton, pvp_button, pve_button, easy_button, medium_button, hard_button):
+def main_loop(screen, background, compmonlogo, compmonlogo_rect, startbutton, pvp_button, pve_button, easy_button, medium_button, hard_button, selectionbackground, pngs, battleimage, battlebackground, pointer, pointer_grabbed):
     game_state = 'main_menu'
     game_mode = None
     difficulty = None
@@ -124,13 +124,10 @@ def main_loop(screen, background, compmonlogo_rect, startbutton, pvp_button, pve
 
         if game_state == "main_menu":
             if current_time - last_click_time > click_cooldown:
-                if startbutton.Click():
+                if startbutton.Click() or pygame.K_RETURN in keys_pressed:
                     game_state = "mode_selection"
                     last_click_time = current_time
-                elif pygame.K_RETURN in keys_pressed:
-                    game_state = "mode_selection"
-                    last_click_time = current_time
-            draw_menu(screen, background, compmonlogo_rect, startbutton)
+            draw_menu(screen, background, compmonlogo, compmonlogo_rect, startbutton)
 
         elif game_state == "mode_selection":
             if current_time - last_click_time > click_cooldown:
@@ -179,18 +176,23 @@ def main_loop(screen, background, compmonlogo_rect, startbutton, pvp_button, pve
             pygame.mixer.music.play(-1)
 
         elif game_state == "playing":
-            draw_game(screen, criatura1, criatura2)
+            draw_game(screen, battleimage, criatura1, criatura2)
             game_state = "battle"
 
         elif game_state == "battle":
+            # <<< INÍCIO DA ALTERAÇÃO >>>
             battle = batalha(criatura1, criatura2, battlebackground, screen)
-            battle.iniciar_batalha()
+            vencedor = battle.iniciar_batalha()
 
-            # <-- ADIÇÃO PARA SALVAR A MEMÓRIA DA IA -->
-            # Se o oponente era uma IA, manda ela salvar o que aprendeu
+            # Se o oponente era uma IA, vamos dizer a ela o resultado para que aprenda
             if criatura2.is_ai:
-                criatura2.ai.salvar_memoria_da_batalha()
-            # -----------------------------------------
+                if vencedor == criatura2: # Se o objeto vencedor é a criatura da IA
+                    resultado = "vitoria"
+                else:
+                    resultado = "derrota"
+                
+                criatura2.ai.salvar_memoria_da_batalha(resultado)
+            # <<< FIM DA ALTERAÇÃO >>>
 
             game_state = "main_menu" 
             last_click_time = pygame.time.get_ticks()
@@ -218,7 +220,6 @@ if __name__ == "__main__":
     compmonlogo = load_image('images/background/compmonlogo.png', (900, 450))
     start_button_image = load_image('images/background/start.png', (480, 400))
     button_image = load_image('images/battle/button.png', (300, 100))
-
     pointer = load_image('images/util/pointer.png')
     pointer_grabbed = load_image('images/util/pointer_grabbed.png')
 
@@ -243,4 +244,4 @@ if __name__ == "__main__":
     battleimage = load_image('images/battle/versus2.png', (SCREEN_WIDTH, SCREEN_HEIGHT))
     battlebackground = load_image('images/battle/fundobattlenovo.png', (SCREEN_WIDTH, SCREEN_HEIGHT))
 
-    main_loop(screen, background, compmonlogo_rect, startbutton, pvp_button, pve_button, easy_button, medium_button, hard_button)
+    main_loop(screen, background, compmonlogo, compmonlogo_rect, startbutton, pvp_button, pve_button, easy_button, medium_button, hard_button, selectionbackground, pngs, battleimage, battlebackground, pointer, pointer_grabbed)
