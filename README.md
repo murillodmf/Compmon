@@ -5,6 +5,7 @@ Um jogo de batalha em 2D inspirado em Pokémon, desenvolvido em Python com a bib
 ## 🎮 Sobre o Projeto
 
 **Compmon** é um jogo onde duas criaturas batalham em turnos até que uma delas seja derrotada. O projeto possui um sistema completo de tipos, vantagens, ataques com dano e efeitos de status (como poison, sleep, freeze).
+Na v1 do jogo não era possível jogar contra bots. Eu reformulei os códigos e inseri agentes inteligentes para representar níveis diferentes de dificuldade.
 
 O jogo oferece dois modos principais:
 
